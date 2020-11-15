@@ -1,6 +1,6 @@
-docker rm --force rhdm
+docker rm --force rhdm-container
 docker run --volume /Users/mcarioli/POC/Lendage/pv:/opt/kie/data \
            --publish 8080:8080 \
            --publish 8001:8001 \
            --detach \
-           --name rhdm rhdm:1
+           --name rhdm-container rhdm-image:1

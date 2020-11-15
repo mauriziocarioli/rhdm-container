@@ -1,1 +1,1 @@
-docker build --tag rhdm:1 .
+docker build --tag rhdm-image:1 .

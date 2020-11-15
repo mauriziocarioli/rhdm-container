@@ -1,1 +1,1 @@
-docker exec -ti rhdm bash
+docker exec -ti rhdm:2 bash
